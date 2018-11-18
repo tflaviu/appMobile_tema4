@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 var AfisareDivizori = /** @class */ (function () {
     function AfisareDivizori(nrs) {
         var _this = this;
@@ -36,5 +38,4 @@ var AfisareDivizori = /** @class */ (function () {
     };
     return AfisareDivizori;
 }());
-var numbers = new AfisareDivizori([10, 3, 25, 19, 113]);
-console.log(numbers.showDivisors());
+exports.default = AfisareDivizori;
